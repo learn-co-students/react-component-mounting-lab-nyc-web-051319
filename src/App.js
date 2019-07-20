@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+ 
 import Timer from './Timer'
 
 class App extends Component {
@@ -10,8 +10,9 @@ class App extends Component {
   }
 
 
-  //Your code here:
-
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
 
 
